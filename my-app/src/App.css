@@ -1,0 +1,35 @@
+.app-wrapper{
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 60px 1fr;
+  grid-gap: 10px;
+
+  grid-template-areas: 
+  "h h"
+  "n c"
+  ;
+  
+}
+.header{
+  grid-area: h;
+}
+.header__logo{
+  width: 40px;
+}
+.nav{
+  grid-area: n;
+}
+.content{
+  grid-area: c;
+}
+.content__photo-img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.content__dlock{
+
+}
+.content__block-ava{
+  width: 150px;
+}
