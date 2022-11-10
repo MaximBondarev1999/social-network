@@ -12,24 +12,29 @@
 }
 .header{
   grid-area: h;
+  background-color: teal;
 }
 .header__logo{
   width: 40px;
 }
 .nav{
   grid-area: n;
+  background-color: yellowgreen;
+}
+.nav__items{
+  text-decoration: none;
+}
+.nav__item{
+  list-style: none; 
+  padding-bottom: 15px;
+}
+.nav__item .active{
+  color: gold;
+}
+.nav__link{
+  text-decoration: none;
 }
 .content{
   grid-area: c;
-}
-.content__photo-img{
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-.content__dlock{
-
-}
-.content__block-ava{
-  width: 150px;
+  background-color: seagreen;
 }
